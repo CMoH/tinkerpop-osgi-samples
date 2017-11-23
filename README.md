@@ -15,15 +15,25 @@ Quick-start
     ~ $ cd tmp/apache-tinkerpop-gremlin-server-3.2.4/
     ~/tmp/apache-tinkerpop-gremlin-server-3.2.4 $ bin/gremlin-server.sh
     ```
-3. start karaf-4.1.1
+3. start karaf-4.1.3
     ```
     bin/karaf
     ```
-4. add the tinkerpop karaf features
+4. add the tinkerpop karaf features repository
     ```
     feature:repo-add mvn:org.cheepee.tinkerpop.osgi/tinkerpop-features/LATEST/xml/features
     ```
-5. use the supplied commands to look and manipulate the graph
+5. add the tinkerpop or janusgraph features
+    ```
+    feature:install janusgraph-service-sample tinkerpop-karaf-commands
+    ```
+
+or alternatively
+
+    ```
+    feature:install tinkerpop-service-sample tinkerpop-karaf-commands
+    ```
+6. use the supplied commands to look and manipulate the graph
 
     ```
     add-vertex label1

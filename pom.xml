@@ -20,7 +20,9 @@
 
     <modules>
         <module>tinkerpop-features</module>
-        <module>service-sample</module>
-    </modules>
+        <module>tinkerpop-service-sample</module>
+        <module>janusgraph-service-sample</module>
+    <module>karaf-commands</module>
+  </modules>
 
 </project>
