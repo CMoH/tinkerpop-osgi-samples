@@ -25,8 +25,8 @@ import org.janusgraph.graphdb.tinkerpop.JanusGraphIoRegistry;
 /**
  * Creates a {@link JanusGraph}.
  *
- * Right now {@link JanusGraph} is deprecated, but it's good enough to show that the
- * gremlin-driver-shaded bundle works within osgi.
+ * Right now {@link JanusGraph} is deprecated, but it's good enough to show that the gremlin-driver
+ * bundle works within osgi.
  */
 public class JanusgraphGraphFactory {
 

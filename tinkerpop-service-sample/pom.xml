@@ -42,13 +42,13 @@
         </dependency>
         <dependency>
             <groupId>org.apache.servicemix.bundles</groupId>
-            <artifactId>org.apache.servicemix.bundles.gremlin-driver-shaded</artifactId>
+            <artifactId>org.apache.servicemix.bundles.gremlin-driver</artifactId>
             <version>3.2.6_1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.servicemix.bundles</groupId>
-            <artifactId>org.apache.servicemix.bundles.janusgraph-core-shaded</artifactId>
+            <artifactId>org.apache.servicemix.bundles.janusgraph-core</artifactId>
             <version>0.2.0_1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>

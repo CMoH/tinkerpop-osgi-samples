@@ -80,9 +80,9 @@
                         <descriptor>file:${project.build.directory}/feature/feature.xml</descriptor>
                     </descriptors>
                     <features>
-                        <feature>gremlin-driver-shaded</feature>
+                        <feature>gremlin-driver</feature>
                         <feature>tinkerpop-service-sample</feature>
-                        <feature>janusgraph-core-shaded</feature>
+                        <feature>janusgraph-core</feature>
                         <feature>janusgraph-service-sample</feature>
                     </features>
                 </configuration>
